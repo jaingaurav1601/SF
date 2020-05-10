@@ -1,0 +1,157 @@
+@media (min-width: 1341px) {
+    .bottom-wrapper .col {
+      max-width: 620px;
+    }
+  
+    .mid-right {
+      max-width: 450px;
+    }
+  
+    .showcase-left,
+    .showcase-right {
+      max-width: 600px;
+    }
+  
+    .mid-left {
+      min-width: 600px;
+    }
+  }
+  
+  @media (max-width: 1340px) {
+    .coder-girl {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .form-bg .flex,
+    .showcase-footer.showcase-flex,
+    .partners.showcase-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .mid-wrapper,
+    .bottom-wrapper {
+      margin: 0 80px;
+    }
+  
+    .showcase-flex,
+    .flex {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .showcase-left,
+    .showcase-right,
+    .bottom-wrapper .col {
+      width: 100%;
+    }
+  
+    .showcase-right.form-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .mid-left {
+      margin-bottom: 20px;
+    }
+  
+    .bottom-wrapper .col {
+      padding: 20px 40px;
+    }
+  
+    .partners img,
+    .partners svg {
+      text-align: center;
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .footer-card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 790px) {
+    .nav-container,
+    .nav-container ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+  
+    .nav-container ul li {
+      padding: 10px;
+    }
+  
+    .icon-treehouse {
+      display: none;
+    }
+  
+    .logo-container svg {
+      text-align: center;
+      position: relative;
+      left: 48%;
+    }
+  }
+  
+  @media (max-width: 682px) {
+    .form-bg .flex,
+    .showcase-footer.showcase-flex,
+    .partners.showcase-flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .showcase-footer div {
+      text-align: center;
+    }
+  
+    .partners div {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .partners div img {
+      width: 50%;
+    }
+    .form-bg .right {
+      width: 100%;
+    }
+  
+    .sticky-footer .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 429px) {
+    .visible {
+      display: none;
+    }
+  
+    .hidden {
+      display: inline;
+    }
+  }
+  
+  @media (max-width: 411px) {
+    .footer {
+      margin: 48px 80px 160px;
+    }
+  }
+  
+  @media (max-width: 322px) {
+    .footer-bg .btn {
+      font-size: 12px;
+    }
+  }
